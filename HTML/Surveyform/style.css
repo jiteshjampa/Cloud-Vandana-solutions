@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.cover{
+   
+    border:1px solid red;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.336);
+    visibility: hidden;
+}
+.cover-change{
+    visibility: visible;
+}
+.container{
+    border: 1px solid blue;
+    position: absolute;
+    top: -100%;
+    
+    
+}
+.container.container-change{
+    top: 50%;
+}
